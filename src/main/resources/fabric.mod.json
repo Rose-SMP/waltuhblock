@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "waltuhblock",
+  "version": "${version}",
+
+  "name": "Waltuh Block",
+  "description": "This mod adds the waltuh block.",
+  "authors": [
+    "camoweed_"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "the.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"camoweed.waltuhblock.mymod"
+    ],
+		"beforeGameStart": [
+			"camoweed.waltuhblock.mymod"
+		],
+		"afterGameStart": [
+			"camoweed.waltuhblock.mymod"
+		],
+		"recipesReady": [
+			"camoweed.waltuhblock.mymod"
+		],
+    "initModels": [
+		"camoweed.waltuhblock.Models"
+	 ],
+   "onInitialize": [
+			"camoweed.waltuhblock.mymod"
+		]
+	},
+  "mixins": [
+      "waltuhblock.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "*",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
