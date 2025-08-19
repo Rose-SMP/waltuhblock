@@ -28,7 +28,7 @@
 			"camoweed.waltuhblock.mymod"
 		],
 		"recipesReady": [
-			"camoweed.waltuhblock.mymod"
+			"camoweed.waltuhblock.ModRecipes"
 		],
     "initModels": [
 		"camoweed.waltuhblock.Models"
