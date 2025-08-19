@@ -25,7 +25,8 @@ public class mymod implements ModInitializer, RecipeEntrypoint, GameStartEntrypo
     }
 
     @Override
-    public void onRecipesReady() {}
+    public void onRecipesReady() {
+    }
 
     @Override
     public void initNamespaces() {}
